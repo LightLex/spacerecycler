@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import './App.css';
 import * as ROUTES from './components/navigation/routes';
 import Navigation from './components/navigation';
 import SignInPage from './components/sign_in';
@@ -20,4 +19,4 @@ const App = () => (
   </Router>
 );
 
-export default App;
+  export default App;
