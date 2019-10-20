@@ -1,7 +1,16 @@
 import React from 'react';
+import {SignInForm} from '../log_in';
+import { AuthUserContext } from '../session';
 
 const HomePage = () => (
-  <div className="h1">HOME</div>
+  <div>
+    <AuthUserContext.Consumer>
+      {authUser => (
+          !authUser && <SignInForm/>
+        )
+      }
+    </AuthUserContext.Consumer>
+  </div>
 );
 
 export default HomePage;
