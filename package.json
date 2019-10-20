@@ -4,8 +4,9 @@
   "private": true,
   "dependencies": {
     "@inlet/react-pixi": "^1.1.4",
-    "pixi.js": "^5.x.x",
+    "firebase": "^7.2.1",
     "flare-react": "^1.0.6",
+    "pixi.js": "^5.x.x",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-router-dom": "^5.1.2",
